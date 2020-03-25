@@ -43,9 +43,6 @@ const donationCenterRepository = require('../repositories');
                 district,
                 city,
                 state,
-                stateInitials,
-                country,
-                countryInitials,
                 additionalInfo,
             }
 
@@ -65,9 +62,6 @@ const donationCenterRepository = require('../repositories');
                     district,
                     city,
                     state,
-                    stateInitials,
-                    country,
-                    countryInitials,
                     additionalInfo,
                 },
                 dateCreation: new Date(),

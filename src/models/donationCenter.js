@@ -7,7 +7,7 @@ const donationCenterSchema = new Schema ({
         required: true,
     },
     userId:{
-        type: String,
+        type: Number,
         required: true,
     },
     description: {
@@ -45,18 +45,6 @@ const donationCenterSchema = new Schema ({
             required: true,
         },
         state:{
-            type: String,
-            required: true,
-        },
-        stateInitials:{
-            type: String,
-            required: true,
-        },
-        country:{
-            type: String,
-            required: true,
-        },
-        countryInitials:{
             type: String,
             required: true,
         },
