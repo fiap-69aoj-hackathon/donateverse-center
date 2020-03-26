@@ -18,9 +18,7 @@ const donationCenterRepository = require('../repositories');
     const getById = async(req, res) => {
         try {
             const response = await donationCenterRepository.getById(req.params.id);
-            res.send({
-                response
-            });
+            res.send(response);
 
         } catch(error){
             res.status(500).send({

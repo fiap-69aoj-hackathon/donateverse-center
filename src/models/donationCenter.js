@@ -6,10 +6,10 @@ const donationCenterSchema = new Schema ({
         type: String,
         required: true,
     },
-    userId:{
-        type: Number,
-        required: true,
-    },
+    // userId:{
+    //     type: Number,
+    //     required: true,
+    // },
     description: {
         type: String,
     },
