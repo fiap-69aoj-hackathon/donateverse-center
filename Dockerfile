@@ -9,4 +9,6 @@ RUN cd /app \
 
 WORKDIR /app
 
+EXPOSE 3012
+
 CMD ["npm", "start"]
